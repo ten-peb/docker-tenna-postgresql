@@ -18,7 +18,7 @@
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 node("master"){
 
-  def String giturl = "git@github.com:ten-peb/docker-tenna-postresql.git"
+  def String giturl = "git@github.com:ten-peb/docker-tenna-postgresql.git"
   def String clone2 = 'ubuntu-postgresql'
   def String image_base_tag = "tenna/postgresql" 
   def String image_version_tag = "0.5.0"
